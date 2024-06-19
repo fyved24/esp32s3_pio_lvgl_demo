@@ -4,10 +4,10 @@
 #include <demos/lv_demos.h>
 
 // FT6336U pins
-#define FT6336U_INT 38   // T_IRQ
-#define FT6336U_SDA 8  // T_SDI
-#define FT6336U_RST 36   // T_CS
-#define FT6336U_SCL 9    // T_CLK
+#define FT6336U_INT 26 // T_IRQ
+#define FT6336U_SDA 21 // T_SDI
+#define FT6336U_RST 27 // T_CS
+#define FT6336U_SCL 22 // T_CLK
 
 
 #define TFT_HOR_RES   320
@@ -105,8 +105,9 @@ void setup()
 
      lv_demo_widgets();
      */
+    lv_demo_widgets();
     // lv_demo_music();
-    lv_demo_benchmark();
+    // lv_demo_benchmark();
     // lv_obj_t *label = lv_label_create( lv_screen_active() );
     // lv_label_set_text( label, "Hello Arduino, I'm LVGL!" );
     // lv_obj_align( label, LV_ALIGN_CENTER, 0, 0 );
