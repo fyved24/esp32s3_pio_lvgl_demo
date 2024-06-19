@@ -216,7 +216,7 @@
 #define TFT_DC    2  // Data Command control pin
 #define TFT_RST   12  // Reset pin (could connect to RST pin)
 
-#define TOUCH_CS 33     // Chip select pin (T_CS) of touch screen
+#define TOUCH_CS -1     // Chip select pin (T_CS) of touch screen
 // For ESP32 Dev board (only tested with GC9A01 display)
 // The hardware SPI can be mapped to any pins
 
